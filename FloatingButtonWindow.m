@@ -72,7 +72,7 @@ static void vibrateDevice() {
 
 - (void)setupButton {
     _floatingButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _floatingButton.frame = CGRectMake(UIScreen.mainScreen.bounds.size.width - 50 - 30, 200, 50, 50);
+    _floatingButton.frame = CGRectMake(30, 200, 50, 50);
     _floatingButton.backgroundColor = [UIColor colorWithRed:0.125 green:0.125 blue:0.125 alpha:1.0];
     [self updateButtonColor];
     _floatingButton.layer.cornerRadius = 25;
