@@ -6,7 +6,7 @@
 	<dict>
 		<key>Bundles</key>
 		<array>
-			<string>com.apple.Security</string>
+			<string>com.alipay.iphoneclient</string>
 		</array>
 	</dict>
 </dict>
