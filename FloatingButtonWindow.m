@@ -72,7 +72,7 @@ static void vibrateDevice() {
 
 - (void)setupButton {
     _floatingButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _floatingButton.frame = CGRectMake(UIScreen.mainScreen.bounds.size.width - 50 - 30, 200, 50, 50);
+    _floatingButton.frame = CGRectMake(30, 200, 50, 50);
     _floatingButton.backgroundColor = [UIColor colorWithRed:0.125 green:0.125 blue:0.125 alpha:1.0];
     [self updateButtonColor];
     _floatingButton.layer.cornerRadius = 25;
@@ -292,11 +292,11 @@ static void vibrateDevice() {
     NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
 
     if (self.isImmortalized) {
-        subtitle = @"Immortalized";
+        subtitle = @"已开启真后台";
         icon = @"hourglass.bottomhalf.fill";
         [self startTimer];
     } else {
-        subtitle = @"At Rest";
+        subtitle = @"正常模式";
         icon = @"arrow.uturn.left.circle.fill";
         [self stopTimer];
     }

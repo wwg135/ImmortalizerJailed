@@ -1,0 +1,11 @@
+Package: com.mg.immortal
+Name: 防杀后台
+Version: 0.1.0
+Description: 防杀后台（注入免越狱）。悬浮按钮切换，防止 App 被系统杀后台。
+Homepage: https://github.com/wwg135
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: M哥
+Author: M哥
+Architecture: iphoneos-arm64

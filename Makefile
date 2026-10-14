@@ -1,9 +1,5 @@
-# TARGET = simulator:clang::14.0
-# ARCHS = x86_64 
-
-TARGET := iphone:clang:16.5:14.0
-ARCHS = arm64
-# INSTALL_TARGET_PROCESSES = Preferences
+TARGET := iphone:clang:16.5:15.0
+ARCHS = arm64 arm64e
 
 include $(THEOS)/makefiles/common.mk
 
